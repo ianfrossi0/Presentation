@@ -39,10 +39,9 @@ Typer.prototype.tick = function () {
 async function changeRoleText() {
     let roleElement = document.getElementById("role-text");
     const roles = [
+        "Frontend Developer",
         "Data Migration Consultant",
         "ABAP Developer",
-        "Frontend Developer",
-        "Professional Idiot"
     ];
 
     roleElement.innerText = "";
