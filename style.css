@@ -107,4 +107,18 @@ body{
         line-height: 6.5vh;
         font-size: 1.6rem;
     }
+
+    a.social:hover{
+        animation: bounce 0.15s linear;
+    }
+}
+
+/* Bounce keyframes */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+    transform: translateY(-10px);
+    }
 }
