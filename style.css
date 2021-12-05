@@ -1,6 +1,11 @@
+:root{
+    --background-color: rgb(41, 38, 48);
+    --accent-color: rgb(236, 236, 236);
+}
+
 body{
-    background: rgb(0, 0, 0);
-    color: white;
+    background: var(--background-color, black);
+    color: var(--accent-color, white);
     font-family: 'Outfit';
 }
 
@@ -42,7 +47,7 @@ body{
 }
 
 .icon-container > a.social{
-    background: white;
+    background: var(--accent-color, white);
     color: black;
     display: inline-block;
     border-radius: 50%;

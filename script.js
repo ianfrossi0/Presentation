@@ -50,5 +50,12 @@ async function changeRoleText() {
 }
 
 window.onload = () => {
+    let social = document.getElementsByClassName("social");
     changeRoleText();
+
+    /*for (item in social) {
+        social.addEventListener("mouseover", (e) => {
+            console.log("pressed " + item)
+        });
+    }*/
 };
